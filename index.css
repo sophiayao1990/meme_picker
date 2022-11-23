@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+header {
+  background-color: #67595e;
+}
+.header-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-inner img {
+  height: 90px;
+  width: 90px;
+}
+.header-inner h1,
+.header-inner h3 {
+  color: #eed6d3;
+}
