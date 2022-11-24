@@ -35,13 +35,14 @@ header {
   padding: 20px 0;
 }
 .emotion-radios {
+  width: 200px;
   display: flex;
   flex-direction: column;
   border: 1px solid #bcbcbc;
   border-radius: 5px;
 }
 .radio {
-  width: 200px;
+  width: 198px;
   display: flex;
   justify-content: space-between;
   padding: 10px;
