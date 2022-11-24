@@ -4,6 +4,11 @@
   box-sizing: border-box;
   text-align: center;
 }
+body {
+  min-width: 340px;
+}
+
+/* Header */
 header {
   background-color: #67595e;
 }
@@ -19,4 +24,81 @@ header {
 .header-inner h1,
 .header-inner h3 {
   color: #eed6d3;
+}
+
+/* Control - Main */
+.controls-container {
+  width: 200px;
+  margin: 0 auto;
+}
+.mainTitle {
+  padding: 20px 0;
+}
+.emotion-radios {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #bcbcbc;
+  border-radius: 5px;
+}
+.radio {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #bcbcbc;
+}
+.radio:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.radio:last-child {
+  border-bottom: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.gif-check {
+  padding: 15px 0;
+}
+.get-img-btn {
+  width: 200px;
+  height: 40px;
+  color: #eed6d3;
+  border: none;
+  background-color: #67595e;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.highlight {
+  color: #bd301d;
+  background-color: #fff0ee;
+  accent-color: #bd301d;
+  font-weight: bold;
+}
+
+/* Aside */
+.meme-modal {
+  background-color: #eed6d3;
+  width: 400px;
+  height: 450px;
+  margin: 0 auto;
+  border: 1px solid #67595e;
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.meme-modal-close-btn {
+  align-self: flex-end;
+  margin: 10px;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+}
+.cat-img {
+  width: 330px;
+  height: 370px;
+  object-fit: cover;
 }
